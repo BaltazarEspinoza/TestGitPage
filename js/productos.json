@@ -1,0 +1,182 @@
+[
+    {
+        "id": "vinilo-01",
+        "titulo": "vinilo 01",
+        "imagen": "./img/vinilos/01.jpg",
+        "categoria": {
+            "nombre": "vinilos",
+            "id": "vinilos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "vinilo-02",
+        "titulo": "vinilo 02",
+        "imagen": "./img/vinilos/02.jpg",
+        "categoria": {
+            "nombre": "vinilos",
+            "id": "vinilos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "vinilo-03",
+        "titulo": "vinilo 03",
+        "imagen": "./img/vinilos/03.jpg",
+        "categoria": {
+            "nombre": "vinilos",
+            "id": "vinilos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "vinilo-04",
+        "titulo": "vinilo 04",
+        "imagen": "./img/vinilos/04.jpg",
+        "categoria": {
+            "nombre": "vinilos",
+            "id": "vinilos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "vinilo-05",
+        "titulo": "vinilo 05",
+        "imagen": "./img/vinilos/05.jpg",
+        "categoria": {
+            "nombre": "vinilos",
+            "id": "vinilos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Casset-01",
+        "titulo": "Casset 01",
+        "imagen": "./img/casset/01.jpg",
+        "categoria": {
+            "nombre": "casset",
+            "id": "casset"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Casset-02",
+        "titulo": "Casset 02",
+        "imagen": "./img/casset/02.jpg",
+        "categoria": {
+            "nombre": "casset",
+            "id": "casset"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Casset-03",
+        "titulo": "Casset 03",
+        "imagen": "./img/casset/03.jpg",
+        "categoria": {
+            "nombre": "casset",
+            "id": "casset"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Casset-04",
+        "titulo": "Casset 04",
+        "imagen": "./img/casset/04.jpg",
+        "categoria": {
+            "nombre": "casset",
+            "id": "casset"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Casset-05",
+        "titulo": "Casset 05",
+        "imagen": "./img/casset/05.jpg",
+        "categoria": {
+            "nombre": "casset",
+            "id": "casset"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Casset-06",
+        "titulo": "Casset 06",
+        "imagen": "./img/casset/06.jpg",
+        "categoria": {
+            "nombre": "casset",
+            "id": "casset"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Casset-07",
+        "titulo": "Casset 07",
+        "imagen": "./img/casset/07.jpg",
+        "categoria": {
+            "nombre": "casset",
+            "id": "casset"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Casset-08",
+        "titulo": "Casset 08",
+        "imagen": "./img/casset/08.jpg",
+        "categoria": {
+            "nombre": "casset",
+            "id": "casset"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cd-01",
+        "titulo": "CD 01",
+        "imagen": "./img/cd/01.jpg",
+        "categoria": {
+            "nombre": "cd",
+            "id": "cd"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cd-02",
+        "titulo": "CD 02",
+        "imagen": "./img/cd/02.jpg",
+        "categoria": {
+            "nombre": "cd",
+            "id": "cd"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cd-03",
+        "titulo": "CD 03",
+        "imagen": "./img/cd/03.jpg",
+        "categoria": {
+            "nombre": "cd",
+            "id": "cd"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cd-04",
+        "titulo": "CD 04",
+        "imagen": "./img/cd/04.jpg",
+        "categoria": {
+            "nombre": "cd",
+            "id": "cd"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cd-05",
+        "titulo": "CD 05",
+        "imagen": "./img/cd/05.jpg",
+        "categoria": {
+            "nombre": "cd",
+            "id": "cd"
+        },
+        "precio": 1000
+    }
+]
