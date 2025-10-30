@@ -1,0 +1,1740 @@
+[
+    {
+        "id": "Casset-09",
+        "titulo": "Abbey Road",
+        "artista": "The Beattles",
+        "imagen": "../static/img/casset/09.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 13000,
+        "status": "tendencias_pop",
+        "genero": [
+            "Rock",
+            "Pop"
+        ],
+        "stock": 90,
+        "Spotify": ""
+    },
+    {
+        "id": "vinilo-05",
+        "titulo": "Homerun",
+        "artista": "Paulo Londra",
+        "imagen": "../static/img/vinilos/05.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 14000,
+        "status": "ultimos",
+        "genero": [
+            "Trap Latino",
+            "Reggaetón"
+        ],
+        "stock": 96
+    },
+    {
+        "id": "cd-04",
+        "titulo": "Los sentimientos de un Robot",
+        "artista": "DrefQuila",
+        "imagen": "../static/img/cd/04.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 13000,
+        "status": "normal",
+        "genero": [
+            "Trap Latino",
+            "Urbano"
+        ],
+        "stock": 97
+    },
+    {
+        "id": "Casset-02",
+        "titulo": "Donda 2",
+        "artista": "Kayne West",
+        "imagen": "../static/img/casset/02.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 17000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Gospel"
+        ],
+        "stock": 14
+    },
+    {
+        "id": "cd-01",
+        "titulo": "Epistolares+",
+        "artista": "Akriila",
+        "imagen": "../static/img/cd/01.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 16000,
+        "status": "normal",
+        "genero": [
+            "Urbano",
+            "Trap"
+        ],
+        "stock": 68
+    },
+    {
+        "id": "vinilo-10",
+        "titulo": "Tu crees en mi?",
+        "artista": "Emilia Mernes",
+        "imagen": "../static/img/vinilos/10.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 14000,
+        "status": "tendencias_pop",
+        "genero": [
+            "Pop Latino",
+            "Urbano"
+        ],
+        "stock": 96
+    },
+    {
+        "id": "vinilo-01",
+        "titulo": "La espada y la pared",
+        "artista": "Los Tres",
+        "imagen": "../static/img/vinilos/01.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 15000,
+        "status": "tendencias_rock",
+        "genero": [
+            "Rock Alternativo",
+            "Rock en Español"
+        ],
+        "stock": 48
+    },
+    {
+        "id": "Casset-08",
+        "titulo": "Oscuro Extasis",
+        "artista": "Wos",
+        "imagen": "../static/img/casset/08.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 14000,
+        "status": "tendencias_rock",
+        "genero": [
+            "Hip-Hop",
+            "Rock Alternativo"
+        ],
+        "stock": 78
+    },
+    {
+        "id": "cd-03",
+        "titulo": "blond",
+        "artista": "Frank Ocean",
+        "imagen": "../static/img/cd/03.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 12000,
+        "status": "normal",
+        "genero": [
+            "R&B Alternativo",
+            "Pop Psicodélico"
+        ],
+        "stock": 47
+    },
+    {
+        "id": "vinilo-08",
+        "titulo": "MAWZ",
+        "artista": "LIT Killah",
+        "imagen": "../static/img/vinilos/08.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 14200,
+        "status": "ultimos",
+        "genero": [
+            "Trap Latino",
+            "Urbano"
+        ],
+        "stock": 98
+    },
+    {
+        "id": "Casset-04",
+        "titulo": "Get Up",
+        "artista": "NewJeans",
+        "imagen": "../static/img/casset/04.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 11000,
+        "status": "tendencias_pop",
+        "genero": [
+            "K-Pop",
+            "R&B"
+        ],
+        "stock": 91
+    },
+    {
+        "id": "vinilo-03",
+        "titulo": "Ride the Lighthing",
+        "artista": "Metallica",
+        "imagen": "../static/img/vinilos/03.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 15000,
+        "status": "normal",
+        "genero": [
+            "Thrash Metal",
+            "Heavy Metal"
+        ],
+        "stock": 42
+    },
+    {
+        "id": "cd-10",
+        "titulo": "El Don",
+        "artista": "Khea",
+        "imagen": "../static/img/cd/10.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 19000,
+        "status": "tendencias_trap",
+        "genero": [
+            "Trap Latino",
+            "Reggaetón"
+        ],
+        "stock": 58
+    },
+    {
+        "id": "Casset-06",
+        "titulo": "Certified Lover Boy",
+        "artista": "Drake",
+        "imagen": "../static/img/casset/06.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 21000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "R&B"
+        ],
+        "stock": 60
+    },
+    {
+        "id": "cd-08",
+        "titulo": "Graduation",
+        "artista": "Kayne West",
+        "imagen": "../static/img/cd/08.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 19000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Pop Rap"
+        ],
+        "stock": 44
+    },
+    {
+        "id": "vinilo-07",
+        "titulo": "Intrumental Relics",
+        "artista": "Clams Casino",
+        "imagen": "../static/img/vinilos/07.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 14000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop Instrumental",
+            "Electronic"
+        ],
+        "stock": 40
+    },
+    {
+        "id": "Casset-12",
+        "titulo": "Viviendo la vida",
+        "artista": "Luis Fonsi",
+        "imagen": "../static/img/casset/12.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 14000,
+        "status": "normal",
+        "genero": [
+            "Pop Latino",
+            "Balada"
+        ],
+        "stock": 42
+    },
+    {
+        "id": "cd-12",
+        "titulo": "Antezana 247",
+        "artista": "YSY A",
+        "imagen": "../static/img/cd/12.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 21000,
+        "status": "tendencias_trap",
+        "genero": [
+            "Trap Latino",
+            "Hip-Hop"
+        ],
+        "stock": 43
+    },
+    {
+        "id": "vinilo-11",
+        "titulo": "TINI TINI TINI",
+        "artista": "Tini",
+        "imagen": "../static/img/vinilos/11.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 10000,
+        "status": "normal",
+        "genero": [
+            "Pop Latino",
+            "Reggaetón"
+        ],
+        "stock": 47
+    },
+    {
+        "id": "Casset-11",
+        "titulo": "Solo es otra historia de amor",
+        "artista": "Rock N Chile",
+        "imagen": "../static/img/casset/11.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 14000,
+        "status": "tendencias_rock",
+        "genero": [
+            "Rock",
+            "Rock en Español"
+        ],
+        "stock": 49
+    },
+    {
+        "id": "cd-06",
+        "titulo": "Super Sangre Joven",
+        "artista": "Duki",
+        "imagen": "../static/img/cd/06.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 11000,
+        "status": "ultimos",
+        "genero": [
+            "Trap Latino",
+            "Urbano"
+        ],
+        "stock": 46
+    },
+    {
+        "id": "vinilo-09",
+        "titulo": "Naiki",
+        "artista": "Nicki Nicole",
+        "imagen": "../static/img/vinilos/09.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 12000,
+        "status": "normal",
+        "genero": [
+            "Trap",
+            "Pop Urbano"
+        ],
+        "stock": 84
+    },
+    {
+        "id": "Casset-10",
+        "titulo": "El Mal Querer",
+        "artista": "Rosalía",
+        "imagen": "../static/img/casset/10.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 14200,
+        "status": "tendencia",
+        "genero": [
+            "Flamenco",
+            "Pop Alternativo"
+        ],
+        "stock": 43
+    },
+    {
+        "id": "cd-07",
+        "titulo": "MM.. FOOD?",
+        "artista": "MF DOOM",
+        "imagen": "../static/img/cd/07.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 13400,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop Alternativo",
+            "Jazz Rap"
+        ],
+        "stock": 21
+    },
+    {
+        "id": "Casset-01",
+        "titulo": "Born to Die",
+        "artista": "Lana del Rey",
+        "imagen": "../static/img/casset/01.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 15000,
+        "status": "normal",
+        "genero": [
+            "Indie Pop",
+            "Sadcore"
+        ],
+        "stock": 31
+    },
+    {
+        "id": "vinilo-12",
+        "titulo": "Dije que no me iba a enamorar",
+        "artista": "Yami Safdie",
+        "imagen": "../static/img/vinilos/12.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 14000,
+        "status": "normal",
+        "genero": [
+            "Pop",
+            "Urbano"
+        ],
+        "stock": 60
+    },
+    {
+        "id": "cd-09",
+        "titulo": "Desde el Fin del Mundo",
+        "artista": "Duki",
+        "imagen": "../static/img/cd/09.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 12000,
+        "status": "normal",
+        "genero": [
+            "Trap Latino",
+            "Drill"
+        ],
+        "stock": 91
+    },
+    {
+        "id": "vinilo-06",
+        "titulo": "Hola chicuelos",
+        "artista": "Plastilina Mosh",
+        "imagen": "../static/img/vinilos/06.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 12500,
+        "status": "normal",
+        "genero": [
+            "Rock Alternativo",
+            "Electronic"
+        ],
+        "stock": 90
+    },
+    {
+        "id": "cd-02",
+        "titulo": "Trapsin",
+        "artista": "Trinset & Kuraimokha",
+        "imagen": "../static/img/cd/02.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 17000,
+        "status": "tendencias_trap",
+        "genero": [
+            "Trap",
+            "Hip-Hop"
+        ],
+        "stock": 72
+    },
+    {
+        "id": "Casset-05",
+        "titulo": "Bhavilonia",
+        "artista": "Bhavi",
+        "imagen": "../static/img/casset/05.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 11000,
+        "status": "tendencia",
+        "genero": [
+            "Trap Latino",
+            "Pop"
+        ],
+        "stock": 37
+    },
+    {
+        "id": "vinilo-04",
+        "titulo": "Withered",
+        "artista": "D4vd",
+        "imagen": "../static/img/vinilos/04.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 12000,
+        "status": "normal",
+        "genero": [
+            "Indie"
+        ],
+        "stock": 31
+    },
+    {
+        "id": "cd-05",
+        "titulo": "Sour",
+        "artista": "Olivia Rodrigo",
+        "imagen": "../static/img/cd/05.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 13000,
+        "status": "tendencia",
+        "genero": [
+            "Pop Rock",
+            "Pop Punk"
+        ],
+        "stock": 98
+    },
+    {
+        "id": "Casset-07",
+        "titulo": "X100pre",
+        "artista": "Bad Bunny",
+        "imagen": "../static/img/casset/07.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 13000,
+        "status": "tendencia",
+        "genero": [
+            "Trap Latino",
+            "Reggaetón"
+        ],
+        "stock": 35
+    },
+    {
+        "id": "Casset-13",
+        "titulo": "Forever Changes",
+        "artista": "Love",
+        "imagen": "../static/img/casset/13.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 14500,
+        "status": "normal",
+        "genero": [
+            "Rock Psicodélico",
+            "Folk Rock"
+        ],
+        "stock": 77
+    },
+    {
+        "id": "vinilo-02",
+        "titulo": "La vida era más corta",
+        "artista": "Milo J",
+        "imagen": "../static/img/vinilos/02.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 12000,
+        "status": "ultimos",
+        "genero": [
+            "Urbano",
+            "Folclore"
+        ],
+        "stock": 72
+    },
+    {
+        "id": "vinilo-14",
+        "titulo": "In Uter",
+        "artista": "Nirvana",
+        "imagen": "../static/img/vinilos/14.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 12300,
+        "status": "normal",
+        "genero": [
+            "Grunge",
+            "Rock Alternativo"
+        ],
+        "stock": 30
+    },
+    {
+        "id": "vinilo-14",
+        "titulo": "Faith",
+        "artista": "George Michael",
+        "imagen": "../static/img/vinilos/13.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 16000,
+        "status": "normal",
+        "genero": [
+            "Pop",
+            "Soul"
+        ],
+        "stock": 64
+    },
+    {
+        "id": "vinilo-15",
+        "titulo": "Dusty in Memphis",
+        "artista": "Dusty Springfield",
+        "imagen": "../static/img/vinilos/15.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 17500,
+        "status": "normal",
+        "genero": [
+            "Blue-Eyed Soul",
+            "Pop"
+        ],
+        "stock": 74
+    },
+    {
+        "id": "Casset-14",
+        "titulo": "Lady Soul",
+        "artista": "Aretha Franklin",
+        "imagen": "../static/img/casset/14.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 15000,
+        "status": "normal",
+        "genero": [
+            "Soul",
+            "R&B"
+        ],
+        "stock": 14
+    },
+{
+        "id": "Casset-15",
+        "titulo": "Lemonade",
+        "artista": "Beyoncé",
+        "imagen": "../static/img/casset/15.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 18000,
+        "status": "normal",
+        "genero": [
+            "R&B Contemporáneo",
+            "Pop"
+        ],
+        "stock": 72
+    },
+    {
+        "id": "cd-14",
+        "titulo": "Parallel Lines",
+        "artista": "Blondie",
+        "imagen": "../static/img/cd/14.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 14000,
+        "status": "normal",
+        "genero": [
+            "New Wave",
+            "Pop Rock"
+        ],
+        "stock": 23
+    },
+    {
+        "id": "cd-15",
+        "titulo": "Illmatic",
+        "artista": "Nas",
+        "imagen": "../static/img/cd/15.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 19000,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Hardcore Hip Hop"
+        ],
+        "stock": 13
+    },
+    {
+        "id": "vinilo-16",
+        "titulo": "To Pimp a Butterfly",
+        "artista": "Kendrick Lamar",
+        "imagen": "../static/img/vinilos/16.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 25000,
+        "status": "tendencia",
+        "genero": [
+            "Hip-Hop",
+            "Jazz Rap",
+            "Funk"
+        ],
+        "stock": 62
+    },
+    {
+        "id": "cd-16",
+        "titulo": "The College Dropout",
+        "artista": "Kanye West",
+        "imagen": "../static/img/cd/16.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 20000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Rap"
+        ],
+        "stock": 71
+    },
+    {
+        "id": "Casset-16",
+        "titulo": "Bad",
+        "artista": "Michael Jackson",
+        "imagen": "../static/img/casset/16.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 17000,
+        "status": "normal",
+        "genero": [
+            "Pop",
+            "R&B",
+            "Funk",
+            "Rock"
+        ],
+        "stock": 78
+    },
+    {
+        "id": "vinilo-17",
+        "titulo": "The Queen is Dead",
+        "artista": "The Smiths",
+        "imagen": "../static/img/vinilos/17.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 18500,
+        "status": "normal",
+        "genero": [
+            "Indie Rock",
+            "Jangle Pop"
+        ],
+        "stock": 37
+    },
+    {
+        "id": "cd-17",
+        "titulo": "Ramones",
+        "artista": "Ramones",
+        "imagen": "../static/img/cd/17.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 16500,
+        "status": "normal",
+        "genero": [
+            "Punk Rock"
+        ],
+        "stock": 14
+    },
+    {
+        "id": "Casset-17",
+        "titulo": "Paul’s Boutique",
+        "artista": "Beastie Boys",
+        "imagen": "../static/img/casset/17.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 16000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Rap Rock"
+        ],
+        "stock": 27
+    },
+    {
+        "id": "vinilo-18",
+        "titulo": "Plastic Ono Band",
+        "artista": "John Lennon",
+        "imagen": "../static/img/vinilos/18.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 19500,
+        "status": "normal",
+        "genero": [
+            "Rock",
+            "Blues Rock"
+        ],
+        "stock": 79
+    },
+    {
+        "id": "cd-18",
+        "titulo": "Led Zeppelin II",
+        "artista": "Led Zeppelin",
+        "imagen": "../static/img/cd/18.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 19000,
+        "status": "normal",
+        "genero": [
+            "Hard Rock",
+            "Heavy Metal",
+            "Blues Rock"
+        ],
+        "stock": 65
+    },
+    {
+        "id": "Casset-18",
+        "titulo": "Synchronicity",
+        "artista": "The Police",
+        "imagen": "../static/img/casset/18.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 14000,
+        "status": "normal",
+        "genero": [
+            "New Wave",
+            "Rock"
+        ],
+        "stock": 10
+    },
+    {
+        "id": "vinilo-19",
+        "titulo": "Master of Puppets",
+        "artista": "Metallica",
+        "imagen": "../static/img/vinilos/19.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 24000,
+        "status": "tendencia",
+        "genero": [
+            "Thrash Metal",
+            "Heavy Metal"
+        ],
+        "stock": 69
+    },
+    {
+        "id": "cd-19",
+        "titulo": "Physical Graffiti",
+        "artista": "Led Zeppelin",
+        "imagen": "../static/img/cd/19.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 22000,
+        "status": "normal",
+        "genero": [
+            "Hard Rock",
+            "Blues Rock",
+            "Folk Rock"
+        ],
+        "stock": 22
+    },
+    {
+        "id": "Casset-19",
+        "titulo": "Live at the Apollo, 1962",
+        "artista": "James Brown",
+        "imagen": "../static/img/casset/19.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 16000,
+        "status": "normal",
+        "genero": [
+            "Soul",
+            "Funk",
+            "R&B"
+        ],
+        "stock": 59
+    },
+    {
+        "id": "vinilo-20",
+        "titulo": "Goodbye Yellow Brick Road",
+        "artista": "Elton John",
+        "imagen": "../static/img/vinilos/20.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 23000,
+        "status": "normal",
+        "genero": [
+            "Glam Rock",
+            "Pop Rock"
+        ],
+        "stock": 37
+    },
+    {
+        "id": "cd-20",
+        "titulo": "Paranoid",
+        "artista": "Black Sabbath",
+        "imagen": "../static/img/cd/20.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 19500,
+        "status": "normal",
+        "genero": [
+            "Heavy Metal",
+            "Doom Metal"
+        ],
+        "stock": 76
+    },
+    {
+        "id": "Casset-20",
+        "titulo": "The Clash",
+        "artista": "The Clash",
+        "imagen": "../static/img/casset/20.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 15000,
+        "status": "normal",
+        "genero": [
+            "Punk Rock"
+        ],
+        "stock": 58
+    },
+    {
+        "id": "vinilo-21",
+        "titulo": "Loveless",
+        "artista": "My Bloody Valentine",
+        "imagen": "../static/img/vinilos/21.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 26000,
+        "status": "normal",
+        "genero": [
+            "Shoegaze",
+            "Noise Pop"
+        ],
+        "stock": 84
+    },
+    {
+        "id": "cd-21",
+        "titulo": "The Band",
+        "artista": "The Band",
+        "imagen": "../static/img/cd/21.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 14000,
+        "status": "normal",
+        "genero": [
+            "Roots Rock",
+            "Folk Rock",
+            "Country Rock"
+        ],
+        "stock": 74
+    },
+    {
+        "id": "Casset-21",
+        "titulo": "Jagged Little Pill",
+        "artista": "Alanis Morissette",
+        "imagen": "../static/img/casset/21.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 14000,
+        "status": "normal",
+        "genero": [
+            "Alternative Rock",
+            "Post-Grunge"
+        ],
+        "stock": 42
+    },
+    {
+        "id": "vinilo-22",
+        "titulo": "Doolittle",
+        "artista": "Pixies",
+        "imagen": "../static/img/vinilos/22.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 18000,
+        "status": "normal",
+        "genero": [
+            "Alternative Rock",
+            "Indie Rock"
+        ],
+        "stock": 67
+    },
+    {
+        "id": "cd-22",
+        "titulo": "Metallica",
+        "artista": "Metallica",
+        "imagen": "../static/img/cd/22.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 18000,
+        "status": "normal",
+        "genero": [
+            "Heavy Metal",
+            "Hard Rock"
+        ],
+        "stock": 58
+    },
+    {
+        "id": "Casset-22",
+        "titulo": "(What's the Story) Morning Glory?",
+        "artista": "Oasis",
+        "imagen": "../static/img/casset/22.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 17000,
+        "status": "normal",
+        "genero": [
+            "Britpop",
+            "Rock"
+        ],
+        "stock": 17
+    },
+    {
+        "id": "vinilo-23",
+        "titulo": "Achtung Baby",
+        "artista": "U2",
+        "imagen": "../static/img/vinilos/23.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 21000,
+        "status": "tendencias_rock",
+        "genero": [
+            "Alternative Rock",
+            "Industrial Rock"
+        ],
+        "stock": 68
+    },
+    {
+        "id": "cd-23",
+        "titulo": "Bringing It All Back Home",
+        "artista": "Bob Dylan",
+        "imagen": "../static/img/cd/23.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 17000,
+        "status": "normal",
+        "genero": [
+            "Folk Rock",
+            "Rock"
+        ],
+        "stock": 69
+    },
+    {
+        "id": "Casset-23",
+        "titulo": "Stakes Is High",
+        "artista": "De La Soul",
+        "imagen": "../static/img/casset/23.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 17500,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop Alternativo",
+            "Jazz Rap"
+        ],
+        "stock": 29
+    },
+    {
+        "id": "vinilo-24",
+        "titulo": "Brokelore",
+        "artista": "Grip Grand",
+        "imagen": "../static/img/vinilos/24.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 18000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop"
+        ],
+        "stock": 22
+    },
+    {
+        "id": "cd-24",
+        "titulo": "Sex & Violence",
+        "artista": "Boogie Down Productions",
+        "imagen": "../static/img/cd/24.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 17000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Hardcore Hip Hop"
+        ],
+        "stock": 55
+    },
+    {
+        "id": "Casset-24",
+        "titulo": "A Piece Of Strange",
+        "artista": "CunninLynguists",
+        "imagen": "../static/img/casset/24.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 18500,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Southern Hip Hop"
+        ],
+        "stock": 69
+    },
+    {
+        "id": "cd-13",
+        "titulo": "Straight Outta Compton",
+        "artista": "N.W.A",
+        "imagen": "../static/img/cd/13.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 22000,
+        "status": "normal",
+        "genero": [
+            "Gangsta Rap",
+            "West Coast Hip Hop"
+        ],
+        "stock": 75
+    },
+    {
+        "id": "vinilo-25",
+        "titulo": "On Fire",
+        "artista": "Stetsasonic",
+        "imagen": "../static/img/vinilos/25.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 17000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "East Coast Hip Hop"
+        ],
+        "stock": 24
+    },
+    {
+        "id": "cd-25",
+        "titulo": "Every Hero Needs A Villain",
+        "artista": "CZARFACE",
+        "imagen": "../static/img/cd/25.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 18500,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "East Coast Hip Hop"
+        ],
+        "stock": 73
+    },
+    {
+        "id": "Casset-25",
+        "titulo": "Big Time",
+        "artista": "Ultra",
+        "imagen": "../static/img/casset/25.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 17000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Abstract Hip-Hop"
+        ],
+        "stock": 29
+    },
+    {
+        "id": "vinilo-26",
+        "titulo": "Rhyme Pays",
+        "artista": "Ice-T",
+        "imagen": "../static/img/vinilos/26.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 19000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Gangsta Rap"
+        ],
+        "stock": 71
+    },
+    {
+        "id": "cd-26",
+        "titulo": "This Was Supposed To Be Fun",
+        "artista": "Epic Beard Men",
+        "imagen": "../static/img/cd/26.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 18000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop Alternativo",
+            "Abstract Hip-Hop"
+        ],
+        "stock": 46
+    },
+    {
+        "id": "Casset-26",
+        "titulo": "Cypress Hill",
+        "artista": "Cypress Hill",
+        "imagen": "../static/img/casset/26.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 16000,
+        "status": "tendencias_rock",
+        "genero": [
+            "West Coast Hip Hop",
+            "Rap Rock"
+        ],
+        "stock": 55
+    },
+    {
+        "id": "vinilo-27",
+        "titulo": "People's Instinctive Travels And The Paths Of Rhythm",
+        "artista": "A Tribe Called Quest",
+        "imagen": "../static/img/vinilos/27.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 22000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop Alternativo",
+            "Jazz Rap"
+        ],
+        "stock": 85
+    },
+    {
+        "id": "cd-27",
+        "titulo": "The Psychic World of Walter Reed",
+        "artista": "Killah Priest",
+        "imagen": "../static/img/cd/27.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 19000,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Conscious Hip Hop"
+        ],
+        "stock": 97
+    },
+    {
+        "id": "Casset-27",
+        "titulo": "The Horns Of Jericho",
+        "artista": "Hijack",
+        "imagen": "../static/img/casset/27.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 16500,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Hardcore Hip Hop"
+        ],
+        "stock": 19
+    },
+    {
+        "id": "vinilo-28",
+        "titulo": "Legends Never Die",
+        "artista": "R.A. The Rugged Man",
+        "imagen": "../static/img/vinilos/28.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 20000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Hardcore Hip Hop"
+        ],
+        "stock": 70
+    },
+    {
+        "id": "cd-28",
+        "titulo": "Internal Affairs",
+        "artista": "Pharoahe Monch",
+        "imagen": "../static/img/cd/28.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 18500,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Hardcore Hip Hop"
+        ],
+        "stock": 10
+    },
+    {
+        "id": "Casset-28",
+        "titulo": "The Listening",
+        "artista": "Little Brother",
+        "imagen": "../static/img/casset/28.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 19000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop Alternativo",
+            "Conscious Hip Hop"
+        ],
+        "stock": 43
+    },
+    {
+        "id": "vinilo-29",
+        "titulo": "Mecca And The Soul Brother",
+        "artista": "Pete Rock & CL Smooth",
+        "imagen": "../static/img/vinilos/29.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 24000,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Jazz Rap"
+        ],
+        "stock": 42
+    },
+    {
+        "id": "cd-29",
+        "titulo": "Fantastic Damage",
+        "artista": "El-P",
+        "imagen": "../static/img/cd/29.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 19000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop Alternativo",
+            "Industrial Hip Hop"
+        ],
+        "stock": 23
+    },
+    {
+        "id": "Casset-29",
+        "titulo": "Apocalypse 91... The Enemy Strikes Black",
+        "artista": "Public Enemy",
+        "imagen": "../static/img/casset/29.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 17500,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Political Hip Hop"
+        ],
+        "stock": 36
+    },
+    {
+        "id": "vinilo-30",
+        "titulo": "Perseverance",
+        "artista": "Percee P",
+        "imagen": "../static/img/vinilos/30.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 21000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Underground Hip Hop"
+        ],
+        "stock": 48
+    },
+    {
+        "id": "cd-30",
+        "titulo": "Illadelph Halflife",
+        "artista": "The Roots",
+        "imagen": "../static/img/cd/30.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 19500,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Jazz Rap"
+        ],
+        "stock": 83
+    },
+    {
+        "id": "Casset-30",
+        "titulo": "Shadows On The Sun",
+        "artista": "Brother Ali",
+        "imagen": "../static/img/casset/30.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 19500,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Conscious Hip Hop"
+        ],
+        "stock": 30
+    },
+    {
+        "id": "vinilo-31",
+        "titulo": "Mos Def & Talib Kweli Are Black Star",
+        "artista": "Black Star",
+        "imagen": "../static/img/vinilos/31.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 25000,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Conscious Hip Hop"
+        ],
+        "stock": 86
+    },
+    {
+        "id": "cd-31",
+        "titulo": "By All Means Necessary",
+        "artista": "Boogie Down Productions",
+        "imagen": "../static/img/cd/31.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 17500,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Political Hip Hop"
+        ],
+        "stock": 93
+    },
+    {
+        "id": "Casset-31",
+        "titulo": "Death Is Silent",
+        "artista": "Kno",
+        "imagen": "../static/img/casset/31.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 18000,
+        "status": "normal",
+        "genero": [
+            "Instrumental Hip-Hop",
+            "Abstract Hip-Hop"
+        ],
+        "stock": 72
+    },
+    {
+        "id": "vinilo-32",
+        "titulo": "Strictly Business",
+        "artista": "EPMD",
+        "imagen": "../static/img/vinilos/32.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 21000,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Golden Age Hip Hop"
+        ],
+        "stock": 86
+    },
+    {
+        "id": "cd-32",
+        "titulo": "Violent By Design",
+        "artista": "Jedi Mind Tricks",
+        "imagen": "../static/img/cd/32.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 19500,
+        "status": "normal",
+        "genero": [
+            "Underground Hip Hop",
+            "Hardcore Hip Hop"
+        ],
+        "stock": 10
+    },
+    {
+        "id": "Casset-32",
+        "titulo": "Live And Let Die",
+        "artista": "Kool G Rap & DJ Polo",
+        "imagen": "../static/img/casset/32.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 18000,
+        "status": "normal",
+        "genero": [
+            "Mafioso Rap",
+            "Hardcore Hip Hop"
+        ],
+        "stock": 10
+    },
+    {
+        "id": "vinilo-33",
+        "titulo": "Rip The Jacker",
+        "artista": "Canibus",
+        "imagen": "../static/img/vinilos/33.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 20000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Hardcore Hip Hop"
+        ],
+        "stock": 92
+    },
+    {
+        "id": "cd-33",
+        "titulo": "The Iceberg",
+        "artista": "Ice-T",
+        "imagen": "../static/img/cd/33.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 18000,
+        "status": "normal",
+        "genero": [
+            "West Coast Hip Hop",
+            "Political Hip Hop"
+        ],
+        "stock": 23
+    },
+    {
+        "id": "Casset-33",
+        "titulo": "Funcrusher Plus",
+        "artista": "Company Flow",
+        "imagen": "../static/img/casset/33.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 19000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop Alternativo",
+            "Industrial Hip Hop"
+        ],
+        "stock": 96
+    },
+    {
+        "id": "vinilo-34",
+        "titulo": "Radio",
+        "artista": "LL Cool J",
+        "imagen": "../static/img/vinilos/34.jpg",
+        "categoria": {
+            "nombre": "VINILOS",
+            "id": "vinilos"
+        },
+        "precio": 20000,
+        "status": "normal",
+        "genero": [
+            "East Coast Hip Hop",
+            "Golden Age Hip Hop"
+        ],
+        "stock": 39
+    },
+    {
+        "id": "cd-34",
+        "titulo": "All Of The Above",
+        "artista": "J-Live",
+        "imagen": "../static/img/cd/34.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 18000,
+        "status": "normal",
+        "genero": [
+            "Hip-Hop",
+            "Conscious Hip Hop"
+        ],
+        "stock": 52
+    },
+    {
+        "id": "Casset-34",
+        "titulo": "E&A",
+        "artista": "Eyedea & Abilities",
+        "imagen": "../static/img/casset/34.jpg",
+        "categoria": {
+            "nombre": "CASSETTES",
+            "id": "casset"
+        },
+        "precio": 19000,
+        "status": "normal",
+        "genero": [
+            "Underground Hip Hop",
+            "Abstract Hip-Hop"
+        ],
+        "stock": 11
+    },
+    {
+        "id": "cd-11",
+        "titulo": "Nena Trampa",
+        "artista": "Cazzu",
+        "imagen": "../static/img/cd/11.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 20000,
+        "status": "ultimos",
+        "genero": [
+            "Trap Latino",
+            "R&B"
+        ],
+        "stock": 36
+    },
+        {
+        "id": "cd-35",
+        "titulo": "En esta ciudad no cabemos los dos",
+        "artista": "Los Perros de Pvlov",
+        "imagen": "../static/img/cd/35.jpg",
+        "categoria": {
+            "nombre": "Disco Compacto",
+            "id": "cd"
+        },
+        "precio": 20000,
+        "status": "tendencias_rock",
+        "genero": [
+            "Rock en Español",
+            "Pop Latino"
+        ],
+        "stock": 65
+    }
+]

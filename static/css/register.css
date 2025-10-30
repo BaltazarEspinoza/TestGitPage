@@ -1,0 +1,544 @@
+/* ============================= */
+/* ====== FUENTE Y BODY ====== */
+/* ============================= */
+
+/* Establecer una tipografía moderna y resetear el body */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow: hidden; /* Evita scroll en la vista de login/register */
+}
+
+/* ============================= */
+/* ====== CONCEPTO 1: SPLIT SCREEN ====== */
+/* ============================= */
+
+.split-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Lado B: Formulario */
+.split-form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a; /* Un fondo oscuro elegante, no negro puro */
+    padding: 40px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Permite scroll si el contenido es mucho */
+}
+
+/* ============================= */
+/* ====== CONTENEDOR LOGIN (REUTILIZADO) ====== */
+/* ============================= */
+
+/* El contenedor ahora es transparente, solo organiza los elementos */
+/* NOTA: Usamos .login-container para reutilizar el estilo */
+.login-container {
+    background: transparent;
+    box-shadow: none;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-logo {
+    width: 250px;
+    height: 120px;
+    /* CAMBIO AQUÍ */
+    margin-bottom: 0px; /* Reducimos el margen inferior */
+    margin-top: 20px; /* Añadimos un margen superior para separarlo de arriba */
+}
+
+.login-container h2 {
+    margin-top: 5px;     /* Espacio entre logo y título */
+    margin-bottom: 15px;  /* MENOS espacio abajo del título (reducido de 30px) */
+    color: #fff;
+    font-size: 24px;
+}
+
+/* ============================= */
+/* ====== CONCEPTO 3: FLOATING LABELS ====== */
+/* ============================= */
+
+/* Contenedor para cada campo del formulario (input + label) */
+.form-field {
+    position: relative;
+    margin-bottom: 30px; /* Espacio entre campos */
+}
+
+/* Estilo del input para floating label */
+.form-field input {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 0;
+    font-size: 16px;
+    border: 2px solid #4C6EF5;
+    border-radius: 8px;
+    background: transparent; /* Fondo transparente */
+    color: #fff; /* Texto del usuario en blanco */
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* La etiqueta flotante */
+.form-field label {
+    position: absolute;
+    top: 14px; /* Centrada verticalmente */
+    left: 12px;
+    font-size: 16px;
+    color: #bbb; /* Color del "placeholder" */
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+
+/* LA ANIMACIÓN: Cuando el input está enfocado o lleno ("placeholder" no visible) */
+.form-field input:focus + label,
+.form-field input:not(:placeholder-shown) + label {
+    top: -10px; /* Sube la etiqueta */
+    left: 10px;
+    font-size: 12px;
+    color: #4C6EF5; /* Color de acento */
+    /* Este fondo "corta" la línea del borde del input */
+    background: #1a1a1a; /* DEBE COINCIDIR con .split-form background-color */
+    padding: 0 4px;
+    z-index: 2;
+}
+
+/* Ajuste al enfocar el input */
+.form-field input:focus {
+    border-color: #1D4ED8;
+    box-shadow: 0 0 8px rgba(29, 78, 216, 0.6);
+}
+
+/* Ya no necesitamos la indicación de texto, la etiqueta flotante lo reemplaza */
+.indication {
+    display: none;
+}
+
+/* ============================= */
+/* ====== CAMPO CONTRASEÑA (MERGE) ====== */
+/* ============================= */
+
+.password-field {
+    position: relative;
+    width: 100%;
+}
+
+/* Ajuste para que el texto no se solape con el ojo */
+.password-field input {
+    padding-right: 45px; /* Espacio para el ícono del ojo */
+}
+
+/* Estilo del botón del ojo */
+.eye-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #bbb; /* Color del icono */
+    transition: color 0.3s ease-in-out;
+    z-index: 3; /* Asegura que esté sobre el input */
+}
+
+.eye-btn:hover {
+    color: #fff;
+}
+
+
+/* ============================= */
+/* ====== BOTONES (MANTENIDO) ====== */
+/* ============================= */
+
+/* Botón de login (usado también para registrarse) */
+.btn-login {
+    display: inline-block;
+    width: 100%;
+    background-color: #4C6EF5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: #1D4ED8;
+}
+
+/* Botón de volver (Estilo GHOST) */
+.btn-back {
+    display: inline-block;
+    background-color: transparent; 
+    color: #aaa;
+    border: 1px solid #aaa;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px; /* Separación del texto "No tienes cuenta?" */
+}
+
+.btn-back:hover {
+    background-color: #1D4ED8;
+    color: white;
+    border-color: #1D4ED8;
+}
+
+/* Enlaces y texto adicional */
+.login-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.login-container a {
+    color: #4C6EF5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.login-container a:hover {
+    color: #1D4ED8;
+    text-decoration: underline;
+}
+
+/* ============================= */
+/* ====== ALERTAS FLASH (MODIFICADO) ====== */
+/* ============================= */
+
+/* Contenedor de alertas: Quitamos 'position: fixed' */
+.flash-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 3px; /* MENOS espacio abajo (reducido de 20px) */
+}
+
+.alert-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 280px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    animation: slideIn 0.5s ease;
+    transition: all 0.3s ease;
+}
+.alert-custom:hover {
+    transform: scale(1.03);
+}
+
+/* Colores personalizados (Mantenidos) */
+.alert-success { background-color: #28a745; }
+.alert-danger  { background-color: #dc3545; }
+.alert-warning { background-color: #ffc107; color: #333; }
+.alert-info    { background-color: #17a2b8; }
+
+/* Botón de cierre */
+.alert-custom button {
+    color: inherit;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+/* Animaciones de Alertas (Mantenidas) */
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+/* ============================= */
+/* ====== ANIMACIÓN CARGA (MANTENIDO) ====== */
+/* ============================= */
+/* Usamos los colores de login.css para consistencia */
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f2a40; /* Color oscuro para la carga */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999;
+    transition: opacity 0.5s ease-out;
+    
+}
+
+#loader p {
+    color: #fff;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.spinner {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80px;
+    height: 60px;
+}
+
+.spinner div {
+    background-color: #4C6EF5; /* Color de acento de la web */
+    width: 10px;
+    height: 100%;
+    border-radius: 5px;
+    animation: equalizer 1.2s infinite ease-in-out;
+}
+
+/* Retrasos para cada barra */
+.spinner .bar2 { animation-delay: -1.1s; }
+.spinner .bar3 { animation-delay: -1.0s; }
+.spinner .bar4 { animation-delay: -0.9s; }
+.spinner .bar5 { animation-delay: -0.8s; }
+
+/* Animación de las barras */
+@keyframes equalizer {
+    0%, 40%, 100% {
+        transform: scaleY(0.1);
+    }
+    20% {
+        transform: scaleY(1.0);
+    }
+}
+
+
+/* ============================= */
+/* ====== 3D MARQUEE (LADO BRAND) ====== */
+/* ============================= */
+
+.split-brand {
+    width: 50%;
+    height: 100%;
+    perspective: 800px; /* Define la 'profundidad' de la escena 3D */
+    overflow: hidden;   /* Oculta los álbumes que se salen de la vista */
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective-origin: center;
+}
+/* 2. El contenedor de la marquesina que crea el 'círculo' */
+.marquee-container {
+    width: 180%; 
+    transform-style: preserve-3d;
+    transform: translateZ(-150px) rotateY(-20deg) scale(1.2);
+}
+
+/* 3. La 'cinta' que se anima y contiene los álbumes */
+.marquee-track {
+    display: flex;
+    width: fit-content; /* Se ajusta al ancho de todos los álbumes */
+    animation: marquee-scroll 50s linear infinite;
+}
+
+/* 4. Cada álbum individual */
+.album-art {
+    width: 500px;
+    height: 500px;
+    margin: 0 20px;
+    flex-shrink: 0; /* Evita que las imágenes se encojan */
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px transparent;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.album-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* 6. La Animación Keyframes */
+@keyframes marquee-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* ============================= */
+/* ====== MULTI-MARQUEE (LADO BRAND) ====== */
+/* ============================= */
+
+/* 1. Nuevo Contenedor Principal para las 3 filas */
+.multi-marquee-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    transform-style: preserve-3d;
+    transition: all 0.4s ease;
+}
+
+/* 2. Estilos para las filas de arriba y abajo */
+.marquee-container.side-row {
+    transform: translateZ(0px) rotateY(-20deg) scale(0.8);
+    opacity: 0.7;
+}
+
+/* 3. CLASE para la animación INVERSA */
+.marquee-track.reverse {
+    transform: translateX(-50%);
+    animation-name: marquee-scroll-reverse;
+    animation-duration: 15s; 
+}
+/* 4. Efecto de FOCO (Lógica Corregida) */
+.marquee-container {
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.multi-marquee-wrapper:hover .marquee-container:not(:hover) {
+    opacity: 0.3;
+}
+
+.multi-marquee-wrapper:hover .marquee-container:hover {
+    opacity: 1;
+    transform: translateZ(-250px) rotateY(-20deg) scale(1); 
+}
+
+/* 5. La NUEVA Animación Keyframes (de Izq a Der) */
+@keyframes marquee-scroll-reverse {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* 6. Efecto POP para el ÁLBUM individual */
+.multi-marquee-wrapper:hover .marquee-container:hover .album-art:hover {
+    transform: translateZ(150px) rotateY(20deg) scale(1.15);
+    cursor: pointer;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+}
+
+
+/* ================================================= */
+/* ============ TÉRMINOS Y CONDICIONES (MODAL) =========== */
+/* ================================================= */
+/* Estos son los estilos que trajimos de register.css */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.cuadro_terminos {
+    background-color: white; /* El modal es de tema claro */
+    color: #333;
+    padding: 25px 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    max-height: 85vh;
+}
+
+.cuadro_terminos h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.contenido-scroll {
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.cerrar-terminos {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.2s ease;
+}
+
+.cerrar-terminos:hover {
+    color: #000;
+}
+
+
+/* ============================= */
+/* ====== RESPONSIVE (MODIFICADO) ====== */
+/* ============================= */
+
+/* Adaptación para tablets y móviles (de login.css) */
+@media (max-width: 768px) {
+    .split-container {
+        flex-direction: column; /* Apila los divs verticalmente */
+    }
+
+    /* El branding se oculta en móvil */
+    .split-brand {
+        width: 0%;
+        height: 0%; 
+        display: none; /* Ocultamos completamente */
+    }
+
+    /* El formulario ocupa toda la pantalla */
+    .split-form {
+        width: 100%;
+        height: 100vh;
+        align-items: flex-start; /* Alinea el form arriba */
+        padding-top: 1rem;
+    }
+
+    .login-container {
+        max-width: 100%;
+    }
+}

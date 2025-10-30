@@ -1,0 +1,106 @@
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url("../static/img/logo/Wallpaper\ Logo\ Halloween\ Deliniado\ Uniforme.png") no-repeat center center fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background: rgba(108, 140, 179, 0.9); /* blanco semitransparente para que se vea la foto */
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 3px solid #1500ff;
+            font-size: 16px;
+        }
+
+        .btn-login {
+            display: inline-block;
+            width: 100%;
+            background-color: #1d4ed8;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-login:hover {
+            background-color: #2563eb;
+        }
+
+        .login-container p {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .login-container a {
+            color: #1d4ed8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+
+        .indication {
+            font-size: 12px;
+            color: #555;
+            margin-top: -8px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .alert {
+            padding: 12px 20px;
+            margin: 10px 0;
+            border-radius: 6px;
+            font-weight: bold;
+            }
+
+        .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+        }
+
+        .alert-danger {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+        }
+
+        .alert-warning {
+        background-color: #fff3cd;
+        color: #856404;
+        border: 1px solid #ffeeba;
+        }
+
+        .alert-info {
+        background-color: #d1ecf1;
+        color: #0c5460;
+        border: 1px solid #bee5eb;
+        }

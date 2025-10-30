@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuriSong</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="icon" type="image/png" href="../static/img/logo/Logo Clasico sin texto.png">
+</head>
+
+<body>
+
+<div id="loader">
+        <div class="spinner">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+            <div class="bar5"></div>
+        </div>
+        <p>Cargando CuriSong...</p>
+    </div>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">
+                <img src="../static/img/logo/Logo Halloween Deliniado.png" alt="Logo CuriSong" width="100%">
+            </h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+            
+        </header>
+<aside>
+    <div class="menu-trigger-visuals">
+        <div class="bars">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <p class="menu-text">MENU</p>
+    </div>
+    <button class="close-menu" id="close-menu">
+        <i class="bi bi-x"></i>
+    </button>
+    <header>
+        <h1 class="logo">
+            <img src="../static/img/logo/Logo Halloween Deliniado.png" alt="Logo CuriSong" width="100%">
+        </h1>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li>
+                <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb"></i> <span>Todos los productos</span></button>
+            </li>
+            <li>
+                <button id="vinilos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> <span>Vinilos</span></button>
+            </li>
+            <li>
+                <button id="casset" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> <span>Cassettes</span></button>
+            </li>
+            <li>
+                <button id="cd" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> <span>Discos Compactos</span></button>
+            </li>
+            <li>
+                {% if nombre %}
+                <a class="boton-menu boton-carrito" href="{{ url_for('routes.carrito') }}">
+                    <i class="bi bi-cart-fill"></i> <span>Carrito</span> <span id="numerito" class="numerito">0</span>
+                </a>
+                {% else %}
+                <a class="boton-menu boton-carrito" href="{{ url_for('routes.login') }}">
+                    <i class="bi bi-cart-fill"></i> <span>Carrito</span> <span id="numerito" class="numerito">0</span>
+                </a>
+                {% endif %}
+            </li>
+
+            {% if nombre %}
+            <li>
+                <a href="{{ url_for('routes.profile') }}" class="boton-menu">
+                    <i class="bi bi-person-badge"></i> <span>Ver perfil</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ url_for('routes.logout') }}" class="boton-menu">
+                    <i class="bi bi-box-arrow-right"></i> <span>Cerrar sesión</span>
+                </a>
+            </li>
+            {% else %}
+            <li>
+                <a href="{{ url_for('routes.login') }}" class="boton-menu">
+                    <i class="bi bi-person-circle"></i> <span>Iniciar Sesión</span>
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+    <footer>
+        <p class="texto-footer" id="footer-secreto" onclick="mostrarCuponFooter(event)">© 2025 CuriSong</p>
+    </footer>
+</aside>
+
+        <main>
+    <div class="contenedor-titulo">
+        <img src="../static/img/logo/ovni apuntando derecha.png" alt="Decoración OVNI" class="ovni-deco">
+        <h1 class="titulo-bienvenida">¡BUEN DÍA, ESTO ES CURISONG!</h1>
+        <img src="../static/img/logo/ovni apuntando izquierda.png" alt="Decoración OVNI" class="ovni-deco" id="ovni-secreto" onclick="mostrarCupon(event)">
+    </div>
+
+    {% if nombre %}
+    <h3 class="bienvenida">¡Hola de nuevo, {{ nombre }}!</h3>
+    {% else %}
+    <h3 class="bienvenida">¡¿Estás listo para llevar tu música a otro nivel?!</h3>
+    {% endif %}
+<section class="carousel">
+    <div class="carousel-container">
+        <div class="slide active">
+            <img src="../static/img/banners/banner12.png" alt="Banner 1">
+            <div class="slide-content">
+                <h2>Curisong trae las últimas novedades</h2>
+                <p>Regístrate ahora para crear el mejor carrito musical.</p>
+                <a href="{{ url_for('routes.register') }}" class="cta-button">¡Registrate!</a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="../static/img/banners/banner13.png" alt="Banner 2">
+            <div class="slide-content">
+                <h2>Descubre Nuevas Ofertas</h2>
+                <p>Explora nuestras promociones exclusivas de esta temporada.</p>
+                <a href="#titulo-principal" class="cta-button">Explorar</a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="../static/img/banners/banner14.png" alt="Banner 3">
+            <div class="slide-content">
+                <h2>¿Tienes algo que compartir?</h2>
+                <p>¡Responde nuestra encuesta!</p>
+                {% if nombre %}
+                <a href="{{ url_for('routes.feedback') }}" class="cta-button">¡EVALÚANOS!</a>
+                {% else %}
+                <a href="#" class="cta-button" onclick="mostrarAlertaLogin(); return false;">¡EVALÚANOS!</a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="slide">
+            <img src="../static/img/banners/banner15.png" alt="Banner 4">
+            <div class="slide-content">
+                <h2>¿Tienes alguna propuesta interesante?</h2>
+                <p>Ponte en contacto con nuestro equipo.</p>
+                <a href="#" class="cta-button" onclick="mostrarContacto(event)">Ver contacto</a>
+            </div>
+        </div>
+        <button class="prev" aria-label="Imagen anterior">&#10094;</button>
+        <button class="next" aria-label="Imagen siguiente">&#10095;</button>
+    </div>
+    <div class="indicators">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</section>
+
+<div id="contacto-modal" class="custom-modal">
+    <div class="custom-modal-content">
+        <span class="custom-close-button">&times;</span>
+        <h2>Información de Contacto</h2>
+        <p>Para propuestas interesantes y colaboraciones, ¡no dudes en escribirnos!</p>
+        
+        <div class="email-container">
+            <span id="email-text">curisong.contacto@gmail.com</span>
+            <button id="copy-email-btn" class="cta-button">Copiar</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="main-header-container">
+    <h2 class="titulo-principal titulo-seccion" id="titulo-principal">🔥 LO ÚLTIMO EN TENDENCIAS 🔥</h2>
+<div class="search-container">
+
+    <div class="filtro-wrapper"> 
+        <select id="filtro-genero" class="filtro-genero-oculto">
+            <option value="todos">Géneros</option>
+            </select>
+
+        <button type="button" id="filtro-btn-custom" class="filtro-btn-custom">
+            <span id="filtro-texto-seleccion" class="filtro-texto-seleccion">Géneros</span>
+            <i class="bi bi-chevron-down filtro-btn-icono"></i>
+        </button>
+
+        <ul id="filtro-lista-custom" class="filtro-lista-custom">
+            </ul>
+    </div>
+    
+    <div class="search-wrapper"> 
+        <input type="text" placeholder="Buscar productos..." class="search-input">
+        <button class="search-button"><i class="bi bi-search"></i></button>
+    </div>
+</div>
+
+</div>
+    <div id="seccion-tendencias" class="seccion-destacados">
+        <div id="contenedor-tendencias" class="contenedor-productos">
+        </div>
+    </div>
+
+    <div id="seccion-pop" class="seccion-destacados">
+        <h2 class="titulo-principal titulo-seccion">🎶 SIN BARRERAS DE IDIOMA:  TRAEMOS EL MEJOR POP 🎶</h2>
+        <div id="contenedor-pop" class="contenedor-productos">
+            </div>
+    </div>
+
+    <div id="seccion-rock" class="seccion-destacados">
+        <h2 class="titulo-principal titulo-seccion">🎸 PORQUE NADA SUENA MEJOR QUE UNA BANDA:  EL ROCK ESTÁ DE VUELTA 🎸</h2>
+        <div id="contenedor-rock" class="contenedor-productos"> 
+            </div>
+    </div>
+
+    <div id="seccion-trap" class="seccion-destacados">
+        <h2 class="titulo-principal titulo-seccion">🎤 QUE EL BARRIO NUNCA SE OLVIDE: TENEMOS EL TRAP MÁS URBANO 🎤</h2>
+        <div id="contenedor-trap" class="contenedor-productos">
+            </div>
+    </div>
+
+    <div id="seccion-ultimos" class="seccion-destacados">
+        <h2 class="titulo-principal titulo-seccion">✨ DESDE EL ESTUDIO HASTA TU CASA ✨</h2>
+        <div id="contenedor-ultimos" class="contenedor-productos">
+            </div>
+    </div>
+    
+    <div class="titulo-principal-container">
+    </div>
+    
+    <div id="contenedor-productos" class="contenedor-productos">
+    </div>
+
+</main>
+</div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../static/js/main.js"></script>
+
+
+
+{% if user_rol == 'admin' %}
+<a href="{{ url_for('routes.admin') }}" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 15px; background-color: #3D74B6; color: white; text-decoration: none; border-radius: 5px; z-index: 1000; font-family: sans-serif; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+    <i class="bi bi-shield-lock"></i> Ir al modo admin
+</a>
+{% endif %}
+
+
+<div id="cupon-modal" class="custom-modal">
+    <div class="custom-modal-content">
+        <span class="custom-close-button">&times;</span>
+        <h2>¡Felicidades! 🥳</h2>
+        <p>Has encontrado un cupón de descuento secreto. Úsalo en tu próxima compra y ahorra hasta 25%.</p>
+        
+        <div class="email-container"> <span id="codigo-cupon">CURIPROMO25</span>
+            <button id="copy-cupon-btn" class="cta-button">Copiar</button>
+        </div>
+    </div>
+</div>
+
+
+<div id="cupon-footer-modal" class="custom-modal">
+    <div class="custom-modal-content">
+        <span class="custom-close-button">&times;</span>
+        <h2>¡Lo Encontraste! 🕵️</h2>
+        <p>Por andar de CurioSong, te ganas un descuento exclusivo. ¡Ganaste un 10% de descuento!</p>
+        
+        <div class="email-container">
+            <span id="codigo-cupon-footer">LEONESCONF10W</span>
+            <button id="copy-cupon-footer-btn" class="cta-button">Copiar Código</button>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+<!--
+
+_________  ____ _____________.___  _________________    _______    ________ 
+\_   ___ \|    |   \______   \   |/   _____/\_____  \   \      \  /  _____/ 
+/    \  \/|    |   /|       _/   |\_____  \  /   |   \  /   |   \/   \  ___ 
+\     \___|    |  / |    |   \   |/        \/    |    \/    |    \    \_\  \
+ \______  /______/  |____|_  /___/_______  /\_______  /\____|__  /\______  /
+        \/                 \/            \/         \/         \/        \/ 
+
+        © 2025 CuriSong
+-->

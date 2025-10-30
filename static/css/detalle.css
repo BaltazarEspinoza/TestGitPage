@@ -1,0 +1,330 @@
+/* =================================================================== */
+/* 1. LAYOUT PRINCIPAL DEL DETALLE
+/* Asume que esta página se carga dentro del <main> de tu layout
+/* principal (el que ya tiene el fondo blanco y bordes redondeados).
+/* =================================================================== */
+* {
+    margin: 0.6rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.producto-contenedor {
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px; /* Le damos un ancho máximo */
+    margin: 0 auto;  /* Lo centramos */
+}
+
+/* --- Columna Izquierda --- */
+.columna-izquierda {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.producto-imagen-caja {
+    width: 100%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.producto-imagen-caja:hover {
+    transform: scale(1.03);
+}
+
+.producto-imagen-principal {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --- Columna Derecha --- */
+.columna-derecha {
+    flex: 2; /* Le damos más espacio a la info */
+}
+
+/* =================================================================== */
+/* 2. COMPONENTES "CURISONG-IFICADOS"
+/* =================================================================== */
+
+.producto-info .producto-categoria {
+    display: inline-block;
+    background-color: #3d74b6b6; /* ¡Estilo CuriSong! */
+    color: var(--clr-main);
+    padding: 0.3rem 0.8rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.producto-info .producto-titulo {
+    font-size: 2.5rem;
+    color: var(--clr-main); /* ¡Estilo CuriSong! */
+    margin: 0;
+    line-height: 1.1;
+}
+
+.producto-info .producto-artista {
+    font-size: 1.5rem;
+    color: #7f8c8d; /* Mantenemos un gris sutil */
+    margin: 0.5rem 0 1.5rem 0;
+    font-weight: 400;
+}
+
+.producto-info .producto-descripcion {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #2c3e50; /* Texto oscuro principal */
+    margin-bottom: 2rem;
+}
+
+.precio-y-stock {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.precio-y-stock .producto-precio {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: var(--clr-main); /* ¡Estilo CuriSong! */
+    margin: 0;
+}
+
+.precio-y-stock .producto-stock {
+    background-color: var(--clr-main-light); /* ¡Estilo CuriSong! */
+    color: green;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+/* --- Acciones de Compra --- */
+
+.acciones-compra {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.control-cantidad {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ecf0f1;
+    border-radius: 0.5rem;
+}
+
+.control-cantidad .btn-cantidad {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    color: #7f8c8d;
+}
+
+.control-cantidad .input-cantidad {
+    width: 50px;
+    text-align: center;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    border-left: 2px solid #ecf0f1;
+    border-right: 2px solid #ecf0f1;
+}
+
+/* Dejamos el botón morado como un "Call to Action" fuerte */
+.btn-agregar-carrito {
+    flex-grow: 1;
+    background-color: #007bff; /* ¡Estilo CuriSong! */
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn-agregar-carrito:hover {
+    background-color: #007bff;
+    transform: translateY(-2px);
+    transform: scale(1.05);
+}
+
+
+/* --- Botón Volver (MEJORADO) --- */
+.btn-volver {
+    display: inline-block;
+    text-align: center;
+    margin-top: 2rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+
+    border: 2px solid var(--clr-celeste);
+    background-color: #007bff;
+    color: #e7f3fe;
+    
+    /* Animamos todas las propiedades */
+    transition: all 0.3s ease; 
+}
+
+.btn-volver:hover {
+    background-color: #007bff;
+    color: #e7f3fe;
+    transform: scale(1.05); 
+}
+
+
+
+
+
+/* --- Tracklist (MEJORADO) --- */
+.tracklist {
+    background-color: #e7f3fe; /* Fondo azul claro (de CuriSong) */
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.tracklist h3 {
+    color: var(--clr-main);
+    margin: 0 0 1rem 0;
+}
+
+.tracklist ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tracklist li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0.5rem;
+    border-bottom: 1px solid var(--clr-celeste); /* Borde CuriSong */
+    font-size: 0.9rem;
+}
+
+.tracklist li:last-child {
+    border-bottom: none;
+}
+
+.tracklist li span:first-child {
+    color: #2c3e50;
+}
+
+.tracklist li span:last-child {
+    color: #7f8c8d;
+}
+
+/* --- Sugerencias (MEJORADO) --- */
+.sugerencias {
+    margin-top: 3rem;
+    background-color: #afcfd8; /* Fondo azul claro (de CuriSong) */
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.sugerencias h3 {
+    color: var(--clr-main);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--clr-celeste);
+    padding-bottom: 0.5rem;
+}
+
+.sugerencias-grid {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto; /* Permite scroll horizontal */
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+}
+
+.sugerencia-card {
+    flex: 0 0 auto; /* No se estira, no se encoge */
+    width: 200px;
+    scroll-snap-align: start;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+/* ¡Hover CuriSong! */
+.sugerencia-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 0 15px rgba(55, 0, 255, 0.6);
+}
+
+.sugerencia-card img {
+    width: 100%;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    aspect-ratio: 1 / 1; /* Hacemos las imágenes cuadradas */
+    object-fit: cover;
+}
+
+.sugerencia-card p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sugerencia-card span {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--clr-main);
+}
+
+/* =================================================================== */
+/* 3. RESPONSIVIDAD
+/* =================================================================== */
+@media screen and (max-width: 950px) {
+    .producto-contenedor {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .acciones-compra {
+        flex-direction: column;
+    }
+    .producto-info .producto-titulo {
+        font-size: 2rem;
+    }
+    .precio-y-stock .producto-precio {
+        font-size: 2.2rem;
+    }
+    
+    .sugerencias {
+        padding: 1rem;
+    }
+    
+    .sugerencia-card {
+        width: 150px; /* Hacemos las tarjetas más pequeñas en móvil */
+    }
+}

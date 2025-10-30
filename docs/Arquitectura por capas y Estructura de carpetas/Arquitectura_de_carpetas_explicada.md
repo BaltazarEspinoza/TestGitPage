@@ -1,0 +1,9 @@
+Esta arquitectura por capas organiza una aplicación en secciones jerárquicas, donde cada capa tiene una función específica y se comunica únicamente con la capa adyacente. Esto permite que los cambios en una capa afecten mínimamente al resto, manteniendo un sistema más ordenado y fácil de mantener. El flujo sigue un patrón de petición y respuesta: la solicitud viaja desde la capa de presentación hacia abajo, y la respuesta regresa hacia arriba.
+
+La **capa de presentación** gestiona la interacción con el usuario, presentando la información y recibiendo entradas. Incluye interfaces gráficas, formularios y elementos visuales que sirven como puente entre el usuario y la aplicación. Su responsabilidad es únicamente mostrar los datos y capturar las solicitudes, sin involucrarse en la lógica interna ni en el manejo de la información.
+
+La **capa de negocios** se encarga de las reglas de negocio, las validaciones y el procesamiento de datos antes de que lleguen a la base de datos. Actúa como cerebro de la aplicación, aplicando la lógica que define el comportamiento del sistema y asegurando que los datos cumplan las condiciones establecidas antes de continuar el flujo.
+
+La **capa de persistencia** es la responsable de gestionar la comunicación directa con la base de datos mediante instrucciones específicas, como las consultas SQL. Se ocupa de almacenar y recuperar datos, garantizando que la información fluya de manera estructurada entre la capa de negocios y la base de datos sin exponer los detalles técnicos a las capas superiores.
+
+Finalmente, la **capa de base de datos** es la que gestiona la conexión, almacenamiento y mantenimiento físico de la información. Aquí se encuentran los servidores de bases de datos y los mecanismos que aseguran la integridad y disponibilidad de los datos. Su función es mantenerlos organizados y accesibles para que las capas superiores puedan trabajar de forma eficiente y segura.

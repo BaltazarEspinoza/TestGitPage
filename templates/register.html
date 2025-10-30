@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - CuriSong</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo/Logo Clasico sin texto.png') }}">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="spinner">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+            <div class="bar5"></div>
+        </div>
+        <p>Cargando CuriSong...</p>
+    </div>
+
+    <div class="split-container">
+        
+        <div class="split-brand" id="brand-side">
+            <div class="multi-marquee-wrapper">
+        <div class="marquee-container side-row">
+                    <div class="marquee-track reverse">
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/10.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/13.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/15.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/16.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/20.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/22.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/24.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/26.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/12.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/19.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/30.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/19.jpg') }}" alt="Album Art"></div>
+
+
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/10.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/13.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/15.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/16.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/20.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/22.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/24.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/26.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/12.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/19.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/30.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/19.jpg') }}" alt="Album Art"></div>
+                    </div>
+                </div>
+        <div class="marquee-container">
+                    <div class="marquee-track">
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/21.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/22.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/23.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/24.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/25.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/26.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/34.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/25.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/29.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/10.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/11.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/12.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/13.jpg') }}" alt="Album Art"></div>                       
+
+
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/21.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/22.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/23.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/24.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/25.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/26.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/34.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/25.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/29.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/10.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/11.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/12.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/13.jpg') }}" alt="Album Art"></div>
+
+                    </div>
+                </div>
+        <div class="marquee-container side-row">
+                    <div class="marquee-track reverse">
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/18.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/34.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/20.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/28.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/27.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/29.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/17.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/15.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/24.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/11.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/35.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/25.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/18.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/34.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/20.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/28.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/27.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/29.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/17.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/15.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/24.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/11.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/35.jpg') }}" alt="Album Art"></div>
+                        <div class="album-art"><img src="{{ url_for('static', filename='img/cd/25.jpg') }}" alt="Album Art"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="split-form">
+            
+            <div class="login-container">
+                
+                <img src="{{ url_for('static', filename='img/logo/Logo Halloween Deliniado.png') }}" alt="Logo CuriSong" class="form-logo">
+                
+                <h2>CREAR CUENTA</h2>
+
+                <div class="flash-container">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                                <div class="alert-custom alert-{{ category }}">
+                                    <span>{{ message }}</span>
+                                    <button onclick="this.parentElement.style.display='none'">
+                                        <i class="bi bi-x-circle"></i>
+                                    </button>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+                </div>
+
+                <form action="/register" method="post">
+                    
+                    <div class="form-field">
+                        <input type="text" name="nombre" id="nombre" placeholder=" " required maxlength="20" minlength="3">
+                        <label for="nombre">Nombre completo</label>
+                    </div>
+
+                    <div class="form-field">
+                        <input type="email" name="email" id="email" placeholder=" " required>
+                        <label for="email">Correo electrónico</label>
+                    </div>
+
+                    <div class="form-field password-field">
+                        <input type="password" id="password" name="password" placeholder=" " required>
+                        <label for="password">Contraseña</label>
+                        <button type="button" onclick="togglePasswordVisibility('password')" class="eye-btn">👁</button>
+                    </div>
+                    
+                    <div class="form-field password-field">
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder=" " required>
+                        <label for="confirm-password">Confirmar contraseña</label>
+                        <button type="button" onclick="togglePasswordVisibility('confirm-password')" class="eye-btn">👁</button>
+                    </div>
+
+                    <p>
+                        Al registrarte, aceptas los 
+                        <a href="#" onclick="abrirTerminos(); return false;">términos y condiciones</a>.
+                    </p>
+
+                    <button type="submit" class="btn-login">Registrarse</button>
+                </form>
+                
+                <p>¿Ya tienes cuenta? 
+                    <a href="{{ url_for('routes.login') }}">Inicia sesión</a>
+                </p>
+                
+                <button type="button" onclick="goBack()" class="btn-back"><i class="bi bi-arrow-left-short"></i> Volver a la tienda</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="overlayTerminos" class="overlay" style="display:none;">
+        <div class="cuadro_terminos">
+            <button class="cerrar-terminos" onclick="cerrarTerminos()"><i class="bi bi-x-circle"></i></button>
+            <h3>Términos y Condiciones</h3>
+            
+            <div class="contenido-scroll">
+                <h4>¡Bienvenido a CuriSong!</h4>
+                <p>
+                    ¡Hola! Somos CuriSong, una tienda de música creada con mucha pasión para nuestro proyecto. Al comprar con nosotros, aceptas estas reglas del juego, que son súper simples.
+                </p>
+                
+                <h4>1. Sobre Nuestros Productos</h4>
+                <p>
+                    En CuriSong encontrarás CDs, Cassetts y Vinilos. Las fotos en la web son para que te hagas una idea del álbum del producto. Hacemos lo posible para que se vean geniales, ¡pero los colores podrían variar un poquito!
+                </entry>
+
+                <h4>2. ¿Cómo Comprar? ¡Fácil!</h4>
+                <p>
+                    Elige lo que te guste y agrégalo a tu carrito de compras. Cuando estés listo, ve al carrito y finaliza tu pedido. Ingresa tus datos para el envío. ¡Revisa bien la dirección! Paga con los métodos disponibles y ¡listo! Te llegará un correo confirmando tu compra.
+                </p>
+
+                <h4>3. Precios y Envíos</h4>
+                <p>
+                    Todos los precios están en pesos chilenos (CLP). El costo del envío se calcula al final de la compra, antes de que pagues. Despacharemos tu pedido lo más rápido posible para que puedas empezar a escuchar tu música cuanto antes, por cierto, no se pueden canjear los cupones, son solo para emocionar al que los encuentra, jejeje. 
+                </p>
+
+                <h4>4. Cambios y Devoluciones</h4>
+                <p>
+                    En CuriSong queremos que quedes feliz con tu compra.
+                </p>
+                <p>
+                    <strong>¿No te gustó o te arrepentiste?</strong> ¡No hay problema! Tienes 10 días desde que recibes el producto para devolverlo. Solo te pedimos que esté sin uso, con su empaque original y todos sus accesorios.
+                </p>
+                <p>
+                    <strong>¿Tu producto llegó con alguna falla?</strong> ¡Qué lata! Contáctanos. Tienes 3 meses de garantía para pedir el cambio, la reparación o la devolución del dinero si el producto tiene un defecto de fábrica.
+                </p>
+
+                <h4>5. Cuidamos tu Información</h4>
+                <p>
+                    Los datos que nos des (nombre, dirección, etc.) los usaremos solo para poder enviarte tu pedido. No los compartiremos con nadie más.
+                </p>
+
+                <h4>6. ¿Tienes alguna duda?</h4>
+                <p>
+                    Si necesitas ayuda o tienes cualquier pregunta, escríbenos a nuestro correo de contacto: contacto@curisong.cl.
+                </p>
+                <p>
+                    ¡Gracias por apoyar nuestro proyecto CuriSong!
+                </p>
+                <img src="{{ url_for('static', filename='img/logo/Logo Halloween Deliniado.png') }}" alt="Logo Alien" width="35%">
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/register.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal de la página */
+.page_404 {
+    background: #3d73b1;
+    font-family: 'Poppins', sans-serif; /* Usar la fuente importada */
+    min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+    display: flex; /* Centra el contenido verticalmente */
+    align-items: center;
+    justify-content: center;
+    padding: 40px 15px;
+}
+
+/* ============================= */
+/* ====== ANIMACIÓN CARGA ====== */
+/* ============================= */
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3D74B6; /* Un fondo oscuro para que resalte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Para poner el texto debajo de la animación */
+    z-index: 9999;
+    transition: opacity 0.5s ease-out; /* Transición para desaparecer suavemente */
+}
+
+#loader p {
+    color: #fff;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.spinner {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80px;
+    height: 60px;
+}
+
+.spinner div {
+    background-color: #0056b3; /* Un color morado que combina bien con temas musicales */
+    width: 10px;
+    height: 100%;
+    border-radius: 5px;
+    animation: equalizer 1.2s infinite ease-in-out;
+}
+
+/* Retrasos para cada barra para crear el efecto de onda */
+.spinner .bar2 {
+    animation-delay: -1.1s;
+}
+
+.spinner .bar3 {
+    animation-delay: -1.0s;
+}
+
+.spinner .bar4 {
+    animation-delay: -0.9s;
+}
+
+.spinner .bar5 {
+    animation-delay: -0.8s;
+}
+
+/* La animación que hace que las barras suban y bajen */
+@keyframes equalizer {
+    0%, 40%, 100% {
+        transform: scaleY(0.1);
+    }
+    20% {
+        transform: scaleY(1.0);
+    }
+}
+
+/* Contenedor para la imagen de fondo */
+.four_zero_four_bg {
+    /* NOTA: Asegúrate que la ruta a tu imagen sea correcta */
+    /* Se cambió el nombre de 'Logo triste.jpg' a 'logo-triste.jpg' para evitar problemas con espacios */
+    background-image: url('../img/logo/Logo\ triste.jpg');
+    height: 300px; /* ALTURA FIJA para que la imagen se vea */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; /* Ajusta la imagen al contenedor */
+}
+
+/* Contenedor para el texto y el botón */
+.content_box_404 {
+    margin-top: 15px; /* Espacio entre la imagen y el texto */
+    color: #fff; /* Texto blanco para mejor contraste */
+}
+
+.content_box_404 h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.content_box_404 p {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/* Estilo del botón */
+.link_404 {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    background: #459ab4;
+    display: inline-block;
+    border-radius: 25px; /* Bordes redondeados */
+    font-weight: 500;
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.link_404:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #3a8a9e; /* Un poco más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Efecto sutil de elevación */
+}
